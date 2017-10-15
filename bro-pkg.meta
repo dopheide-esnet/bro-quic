@@ -2,4 +2,4 @@
 description = Attempt to identify QUIC protocol
 tags = plugin, analyzer, quic
 plugin_dir = build/Bro_QUIC.tgz
-build_command = ( ./configure --bro-dist=%(bro_dist)s LDFLAGS=/opt/snf/lib CFLAGS=/opt/snf/include && make )
+build_command = ( ./configure --bro-dist=%(bro_dist)s && make )
